@@ -4,7 +4,7 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://github.com/SamJov9/SamJov9/blob/c660a2efd518f29b34228adc2e5bb3db15540c17/animeEVO.lua')))()
 
 local Window = OrionLib:MakeWindow({Name = "Anime Evolutions Simulator|Lcopium#1131", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
